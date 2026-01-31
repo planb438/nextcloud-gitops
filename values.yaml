@@ -4,7 +4,7 @@ nextcloud:  # ← This is the subchart name
     type: NodePort
     nodePorts:
       http: 31000
-  replicaCount: 3  # ← Inside nextcloud: section
+  replicaCount: 1  # ← Inside nextcloud: section
   persistence:
     enabled: true
     size: 10Gi
