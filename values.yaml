@@ -9,3 +9,5 @@ ingress:
 persistence:
   enabled: true
   size: 10Gi
+
+replicaCount: 3 
