@@ -3,5 +3,5 @@ name: nextcloud-gitops
 version: 1.0.0
 dependencies:
   - name: nextcloud
-    version: "9.0.2"
+    version: "8.4.1"
     repository: "https://nextcloud.github.io/helm/"
