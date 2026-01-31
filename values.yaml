@@ -1,13 +1,12 @@
-service:
-  type: NodePort
-  nodePorts:
-    http: 31000
-
-ingress:
-  enabled: false
-
-persistence:
-  enabled: true
-  size: 10Gi
-
-replicaCount: 3 
+# Your values.yaml should target the "nextcloud" subchart
+nextcloud:  # ← This is the subchart name
+  service:
+    type: NodePort
+    nodePorts:
+      http: 31000
+  replicaCount: 3  # ← Inside nextcloud: section
+  persistence:
+    enabled: true
+    size: 10Gi
+  ingress:
+    enabled: false
