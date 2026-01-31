@@ -1,8 +1,8 @@
 # Your values.yaml should target the "nextcloud" subchart
 nextcloud:  # ← This is the subchart name
-  host: 10.0.0.174          # Replace with your worker node IP or domain - # Internal IP of any worker node
-  username: admin            # Default admin user
-  password: "Adm!nP@ss123"   # Change this to a strong password!
+#  host: 10.0.0.174          # Replace with your worker node IP or domain - # Internal IP of any worker node
+#  username: admin            # Default admin user
+#  password: "Adm!nP@ss123"   # Change this to a strong password!
   service:
     type: NodePort
     nodePorts:
